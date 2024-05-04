@@ -1,0 +1,117 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.responsive-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    width: 85%;
+    max-width: 1140px;
+  }
+}
+
+.app-heading {
+  text-align: center;
+  color: #0f172a;
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: bold;
+  line-height: 1.5;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .app-heading {
+    font-size: 48px;
+  }
+}
+
+.circle-icon {
+  color: #2dca73;
+  min-width: 30px;
+  height: 70px;
+  margin-right: 14px;
+}
+
+.details-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-top: 0px;
+}
+
+.success-heading {
+  color: #2dca73;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.description {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+
+.error-icon {
+  color: #ff0b37;
+  min-width: 30px;
+  height: 70px;
+  margin-right: 14px;
+}
+
+.error-heading {
+  color: #ff0b37;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.warning-icon {
+  color: #ffb800;
+  min-width: 30px;
+  height: 70px;
+  margin-right: 14px;
+}
+
+.warning-heading {
+  color: #ffb800;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.info-icon {
+  color: #0f81e0;
+  min-width: 30px;
+  height: 70px;
+  margin-right: 14px;
+}
+
+.info-heading {
+  color: #0f81e0;
+  font-family: 'Roboto';
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 1.5;
+}
